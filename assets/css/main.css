@@ -3066,7 +3066,7 @@
 		button.disabled,
 		button:disabled,
 		.button.disabled,
-		.button:disabled {
+		.button:disabled, a.disabled {
 			-moz-pointer-events: none;
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
