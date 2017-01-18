@@ -32,7 +32,7 @@
                   success: function() {
                       // Enable button & show success message
                       $("#btnSubmit").attr("disabled", false);
-                      $('#success').html("<div class='alert alert-success'>");
+                      $('#success').html("<div class='alert alert-success 12u$'>");
                       $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                           .append("</button>");
                       $('#success > .alert-success')
@@ -45,7 +45,7 @@
                   },
                   error: function() {
                       // Fail message
-                      $('#success').html("<div class='alert alert-danger'>");
+                      $('#success').html("<div class='alert alert-danger 12u$'>");
                       $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                           .append("</button>");
                       $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");

@@ -3074,6 +3074,20 @@
 			opacity: 0.25;
 		}
 
+.alert > button {
+	height: 1em;
+	box-shadow: none;
+
+}
+
+.alert > button:hover {
+	background-color: transparent;
+}
+
+.alert {
+	padding: 8px;
+}
+
 /* Mini Posts */
 
 	.mini-posts article {
